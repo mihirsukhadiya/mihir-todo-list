@@ -1,0 +1,85 @@
+.taskDetails {
+  gap: 1rem;
+  display: grid;
+  background-color: #eee;
+  justify-content: center;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1299px) {
+  .taskDetails {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media screen and (min-device-width: 1300px) {
+  .taskDetails {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+.cardList {
+  width: 300px;
+}
+.imgeAdd {
+  cursor: pointer;
+}
+.titleBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mainContainer {
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contentDiv {
+  max-width: 1500px;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background-color: white;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+.oneList {
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li label {
+  font-size: larger;
+  cursor: pointer;
+}
+.CardBox {
+  display: flex;
+  justify-content: center;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+}
+.iconsClass {
+  display: flex;
+}
+.editDelete {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+.listItems {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+}
